@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./images/images-removebg-preview.png" alt="">
+        </div>
+        <div class="option">
+            <ul>
+                <li><a href="">Mobile Phones</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Outlets</a></li>
+            </ul>
+        </div>
+        <img class="menu-btn" src="./images/icons8-menu-30.png" alt="">
+        <div class="filter">
+            <ul id="value">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="search">
+            <ul>
+                <li><input placeholder="Search" type="text" name="" id="searchValue"></li>
+                <li><button onclick="search()">Search</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="price">
+        <ul>
+            <li><input placeholder="Your Range" type="text" name="" id="rangeValue"></li>
+            <li><button onclick="range()">Click</button></li>
+        </ul>
+    </div>
+    <div id="mobile-frame" class="mobile-frame">
+        <hr>
+        <div>
+            <h1>Mobiles We Have</h1>
+        </div>
+        <hr>
+        <!-- Mobile frame start -->
+        <!-- Samsung Mobiles frame start -->
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyZFold4-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyZFold3-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyZFlip4-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyZFlip3-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyS20-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyS21Ultra-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyS22-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyS23Ultra-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyNote8Plus-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyNote9-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyNote10Lite-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyNote11Ultra-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd row -->
+        <div class="row">
+            <div class="col" data-filter = "Samsung">
+                <img src="./images/Samsung/SamsungGalaxyNote20-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiPSmart-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiP10s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiP20Pro-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiP30-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY5p-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 4th row -->
+        <div class="row">
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY6p-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY7a-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY9Prime2019-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY9a-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Huawei">
+                <img src="./images/Huawei/HuaweiY9s2019-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoX80-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 5th row -->
+        <div class="row">
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoX60Pro-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoX70Pro-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoV23-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoV25-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoV27e-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoY22-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 6th row -->
+        <div class="row">
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoY35-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Vivo">
+                <img src="./images/Vivo/VivoY73-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoF21Pro5G-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoF17Pro-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoF19-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoA96-s.jpg" alt="">
+                <p></p>
+                <p>Fold Z S8</p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 7th row -->
+        <div class="row">
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoA54-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoA57-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoReno6Pro-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoReno5-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "Oppo">
+                <img src="./images/Oppo/OppoReno10XZoom-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone13-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 8th row -->
+        <div class="row">
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone13Pro-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone13ProMax-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone13Mini-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone12-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone12Pro-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone12ProMax-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 9th row -->
+        <div class="row">
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone12Mini-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone11-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone11Pro-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone11ProMax-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. </p>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="col" data-filter = "AppleiPhone">
+                <img src="./images/AppleiPhone/AppleiPhone11Mini-s.jpg" alt="">
+                <p></p>
+                <p></p>
+                <p>Rs. 123456</p>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- AppleiPhone mobile frame end -->   
+    </div>
+    <div class="search-filter">
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
